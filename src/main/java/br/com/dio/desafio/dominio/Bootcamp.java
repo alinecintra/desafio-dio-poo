@@ -37,17 +37,4 @@ public class Bootcamp {
     public void setConteudos(Set<Conteudo> conteudos) {
         this.conteudos = conteudos;
     }
-
-//    @Override
-//    public boolean equals(Object o) {
-//        if (this == o) return true;
-//        if (o == null || getClass() != o.getClass()) return false;
-//        Bootcamp bootcamp = (Bootcamp) o;
-//        return Objects.equals(nome, bootcamp.nome) && Objects.equals(descricao, bootcamp.descricao) && Objects.equals(dataInicial, bootcamp.dataInicial) && Objects.equals(dataFinal, bootcamp.dataFinal) && Objects.equals(devsIsncritos, bootcamp.devsIsncritos) && Objects.equals(conteudos, bootcamp.conteudos);
-//    }
-//
-//    @Override
-//    public int hashCode() {
-//        return Objects.hash(nome, descricao, dataInicial, dataFinal, devsIsncritos, conteudos);
-//    }
 }
